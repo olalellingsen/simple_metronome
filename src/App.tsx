@@ -1,11 +1,15 @@
-import './App.css'
+import Tempo from "./components/Tempo"
+import Header from "./components/header"
+
 
 function App() {
 
   return (
     <>
-      <h1 className='text-3xl'>Simple Metronome</h1>
-      <p>A very simple metronome, made for musicians who know typescript and react!!</p>
+      <div className='h-screen bg-gray-300'>
+        <Header />
+        <Tempo />
+      </div>
     </>
   )
 }
